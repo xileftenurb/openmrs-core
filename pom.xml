@@ -1156,13 +1156,14 @@
 		<log4jVersion>2.14.0</log4jVersion>
 
 		<customArgLineForTesting />
-
-		<sonar.host.url>https://sonar.openmrs.org</sonar.host.url>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<sonar.issuesReport.html.enable>true</sonar.issuesReport.html.enable>
 		<sonar.issuesReport.lightModeOnly>true</sonar.issuesReport.lightModeOnly>
 		<sonar.issuesReport.console.enable>true</sonar.issuesReport.console.enable>
 		<sonar.analysis.mode>publish</sonar.analysis.mode>
-
+		<sonar.projectKey>xileftenurb_openmrs-core</sonar.projectKey>
+		<sonar.organization>xileftenurb</sonar.organization>
 		<argLine>-Duser.language=en -Duser.region=US -Xmx2g ${customArgLineForTesting} -Djava.locale.providers=COMPAT</argLine>
 	</properties>
+	
 </project>
